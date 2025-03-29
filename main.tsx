@@ -1,3 +1,3 @@
-// Redirection depuis main.tsx à la racine
-console.warn("Redirection depuis main.tsx à la racine");
+// Redirection depuis main.tsx
+console.log('Redirection depuis main.tsx');
 window.location.replace('/Portfolio/'); 
