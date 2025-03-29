@@ -4,10 +4,9 @@ export default function Contact() {
   return (
     <section id="contact" className="py-24">
       <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="section-heading numbered-heading justify-center">Get In Touch</h2>
+        <h2 className="section-heading numbered-heading justify-center">Contact</h2>
         <p className="text-slate mb-8">
-          I'm currently looking for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!
-        </p>
+        Ouvert à de nouvelles opportunités. N’hésitez pas à me contacter, je reviendrai vers vous au plus vite.        </p>
         <div className="space-y-4">
           <p className="text-light-slate">
             <span className="font-mono text-primary">Email:</span> Anis561@gmail.com
@@ -23,7 +22,7 @@ export default function Contact() {
           href="mailto:Anis561@gmail.com"
           className="inline-block mt-12 px-8 py-4 border-2 border-primary text-primary font-mono rounded hover:bg-primary/10 transition-colors"
         >
-          Say Hello
+          Fais-moi signe
         </a>
       </div>
     </section>

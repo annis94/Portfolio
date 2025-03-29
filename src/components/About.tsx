@@ -4,15 +4,13 @@ export default function About() {
   return (
     <section id="about" className="py-24">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="section-heading numbered-heading">About Me</h2>
+        <h2 className="section-heading numbered-heading">L’histoire derrière l’écran</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="space-y-4 text-slate">
           <p>
-            Développeur Full Stack avec un penchant pour le front-end, je suis en quête d'une nouvelle aventure professionnelle où je pourrais mettre en jeu mon savoir-faire et mon enthousiasme.
-          </p>
+          Développeur Full Stack, j’ai envie d’un nouveau chapitre pro qui a du sens. Pas juste un poste, mais un environnement où je peux vraiment m’investir, apprendre, partager, et construire des projets concrets avec une équipe qui aime ce qu’elle fait.          </p>
           <p>
-            Attiré par les projets à la fois exigeants et novateurs, je souhaite rejoindre une équipe où je pourrais évoluer et apporter une valeur authentique dans une dynamique créative et stimulante.
-          </p>
+          J’aime le code, mais ce que je cherche, c’est aussi une vraie dynamique : des idées qui fusent, des défis à relever, et l’envie de faire les choses bien, ensemble. Si je peux apporter ma pierre à l’édifice tout en continuant à évoluer, alors c’est tout ce que je demande.          </p>
 
             <ul className="grid grid-cols-2 gap-2 font-mono text-sm">
               <li className="flex items-center before:content-['▹'] before:text-primary before:mr-2">JavaScript</li>

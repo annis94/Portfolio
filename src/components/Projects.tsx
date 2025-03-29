@@ -7,13 +7,13 @@ export default function Projects() {
       title: "Tableau de bord d'analytics",
       description: "Création d'un tableau de bord de coaching sportif avec intégration de graphiques interactifs pour visualiser les données d'analyse. Documentation complète avec JSDoc et PropTypes.",
       tech: ["React", "Recharts", "Axios", "Node.js"],
-      links: { github: "#", demo: "#" }
+      links: { github: "https://github.com/annis94/SportSee", demo: "#" }
     },
     {
       title: "Application bancaire",
       description: "Interface utilisateur dynamique et responsive avec intégration API pour une application bancaire. Utilisation de Redux pour la gestion d'état global et Swagger pour la documentation.",
       tech: ["React", "Redux", "REST API", "Swagger"],
-      links: { github: "#", demo: "#" }
+      links: { github: "https://github.com/annis94/Argent-Bank", demo: "#" }
     },
     {
       title: "Migration jQuery vers React",

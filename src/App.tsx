@@ -72,8 +72,8 @@ function App() {
       <footer className="py-6 text-center text-slate">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="font-mono text-sm">
-            Designed & Built by Anis Moulfi
-          </p>
+          Signé Anis Moulfi, du design au code
+                    </p>
         </div>
       </footer>
     </div>
