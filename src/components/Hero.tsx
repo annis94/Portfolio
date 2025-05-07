@@ -4,7 +4,11 @@ export default function Hero() {
   return (
     <div className="min-h-screen flex items-center justify-center py-32">
       <div className="space-y-5">
+<<<<<<< HEAD
         <p className="font-mono text-primary">Salut, moi c'est</p>
+=======
+        <p className="font-mono text-primary">Salut, moi c’est</p>
+>>>>>>> 1a7337b24f247f584d7cb4949d3ee0b1c7a98947
         <h1 className="text-5xl md:text-7xl font-bold text-slate-200 mb-4">
           Anis Moulfi
         </h1>
@@ -16,7 +20,11 @@ export default function Hero() {
           je m'engage à concevoir des produits performants et accessibles.
         </p>
           <a
+<<<<<<< HEAD
           href="#projets"
+=======
+          href="#projects"
+>>>>>>> 1a7337b24f247f584d7cb4949d3ee0b1c7a98947
           className="inline-block px-8 py-4 border border-primary text-primary font-mono rounded hover:bg-primary/10 transition-colors"
         >
           Jetez un œil à mes projets !

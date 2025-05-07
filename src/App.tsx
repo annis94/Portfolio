@@ -28,9 +28,15 @@ function App() {
           <div className="flex justify-between h-20 items-center">
             <a href="#" className="text-primary font-mono text-2xl">AM</a>
             <div className="hidden md:flex space-x-8">
+<<<<<<< HEAD
               <a href="#about" className="nav-link font-mono"><span className="text-primary">01.</span> À propos</a>
               <a href="#experience" className="nav-link font-mono"><span className="text-primary">02.</span> Expérience</a>
               <a href="#projets" className="nav-link font-mono"><span className="text-primary">03.</span> Projets</a>
+=======
+              <a href="#about" className="nav-link font-mono"><span className="text-primary">01.</span> About</a>
+              <a href="#experience" className="nav-link font-mono"><span className="text-primary">02.</span> Experience</a>
+              <a href="#projects" className="nav-link font-mono"><span className="text-primary">03.</span> Projects</a>
+>>>>>>> 1a7337b24f247f584d7cb4949d3ee0b1c7a98947
               <a href="#contact" className="nav-link font-mono"><span className="text-primary">04.</span> Contact</a>
             </div>
           </div>
@@ -39,10 +45,17 @@ function App() {
 
       <div className="fixed left-12 bottom-0 hidden lg:block">
         <div className="flex flex-col items-center space-y-6 after:content-[''] after:w-[1px] after:h-24 after:bg-slate">
+<<<<<<< HEAD
           <a href="https://github.com/annis94" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-primary transform hover:-translate-y-1 transition-all">
             <Github size={20} />
           </a>
           <a href="https://www.linkedin.com/in/anis-m-015551250/" target="_blank" rel="noopener noreferrer" className="text-slate hover:text-primary transform hover:-translate-y-1 transition-all">
+=======
+          <a href="https://github.com/annis94" className="text-slate hover:text-primary transform hover:-translate-y-1 transition-all">
+            <Github size={20} />
+          </a>
+          <a href="https://www.linkedin.com/in/anis-m-015551250/" className="text-slate hover:text-primary transform hover:-translate-y-1 transition-all">
+>>>>>>> 1a7337b24f247f584d7cb4949d3ee0b1c7a98947
             <Linkedin size={20} />
           </a>
           <a href="mailto:Anis561@gmail.com" className="text-slate hover:text-primary transform hover:-translate-y-1 transition-all">
@@ -72,8 +85,13 @@ function App() {
       <footer className="py-6 text-center text-slate">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <p className="font-mono text-sm">
+<<<<<<< HEAD
             Signé Anis Moulfi, du design au code
           </p>
+=======
+          Signé Anis Moulfi, du design au code
+                    </p>
+>>>>>>> 1a7337b24f247f584d7cb4949d3ee0b1c7a98947
         </div>
       </footer>
     </div>
