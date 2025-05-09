@@ -7,7 +7,8 @@ export default function Projects() {
       title: "Site E-commerce pour Pizzeria O'Humm",
       description: "Développement d'une application web moderne pour la pizzeria O'Humm, permettant aux clients de consulter un menu toujours à jour et de simuler un processus de commande. Ce projet met en œuvre une récupération dynamique des données du menu depuis le site existant du client via une solution de web scraping éthique (avec son autorisation), exposée par une API Next.js interne avec mise en cache.",
       tech: ["Next.js", "React", "TypeScript", "Tailwind CSS", "Web Scraping", "API Routes"],
-      links: { github: "https://github.com/annis94/ohumm-pizza", demo: "https://ohumm-pizza.vercel.app" }
+      links: { github: "https://github.com/annis94/ohumm-pizza", demo: "https://ohumm-pizza.vercel.app" },
+      image: "https://raw.githubusercontent.com/annis94/ohumm-pizza/main/public/og.png"
     },
     {
       title: "Tableau de bord d'analytics",
@@ -38,6 +39,13 @@ export default function Projects() {
             <div key={idx} className="relative grid md:grid-cols-12 gap-4 items-center">
               <div className={`md:col-span-7 ${idx % 2 === 0 ? 'md:col-start-1' : 'md:col-start-6'}`}>
                 <div className="relative rounded-lg overflow-hidden">
+                  {project.image && (
+                    <img 
+                      src={project.image} 
+                      alt={project.title}
+                      className="w-full h-full object-cover"
+                    />
+                  )}
                   <div className="absolute inset-0 bg-primary/20 hover:bg-transparent transition-colors"></div>
                 </div>
               </div>
